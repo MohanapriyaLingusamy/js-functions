@@ -1,3 +1,5 @@
+//functions
+//1)
 //Addition
 function add(val1,val2)
 {
@@ -62,8 +64,8 @@ console.log(conval("2",2))
 console.log(conval(3,3))
 //output:true
 
-
-
+//----------------------------------------------------------------
+//2)
 //Grade Finder
 grade=(val)=>{
   if(val>90)
