@@ -65,3 +65,49 @@ console.log(conval(3,3))
 
 
 //Grade Finder
+grade=(val)=>{
+  if(val>90)
+  return "S"
+  else if(val>80)
+  return "A"
+  else if(val>70)
+  return "B"
+  else if(val>60)
+  return "C"
+  else if(val<50)
+  return "U"
+  else
+  return "D"
+}
+console.log(grade(49))
+//output:U
+
+//check Vowel
+vowels=(val)=>{
+  if(val.match(/[aeiou]/g)!=null)
+  {
+    return "Contains Vowels"
+  }
+  else
+  return "No Vowels"
+}
+console.log(vowels("hello"))
+//output:Contains Vowels
+console.log(vowels("hmm"))
+//output:No Vowels
+
+//prime number
+prime=(val)=>{
+  for(i=2;i<val;i++)
+  {
+  if(val%i==0)
+  {
+    return "Not a prime";
+  }
+  }
+  return "prime";
+}
+console.log(prime(7))
+//output:prime
+console.log(prime(27))
+//output:Not a prime
