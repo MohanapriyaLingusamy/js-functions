@@ -44,3 +44,24 @@ comNum=(val1,val2)=>{
   return (val1===val2)?true:false
 }
 console.log(comNum(2,2))
+//output:true
+
+//compare String
+comstr=(val1,val2)=>{
+  return (val1===val2)?true:false
+}
+console.log(comNum("2","2"))
+//output:true
+
+//compare values
+conval=(val1,val2)=>{
+  return(typeof(val1)===typeof(val2))? ((val1===val2)?true:false):false
+}
+console.log(conval("2",2))
+//output:false
+console.log(conval(3,3))
+//output:true
+
+
+
+//Grade Finder
